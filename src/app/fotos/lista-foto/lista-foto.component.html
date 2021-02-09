@@ -1,0 +1,18 @@
+<div fxLayout="row wrap" fxLayoutGap="1% grid" style="padding: 2%;" >
+    <div 
+    fxFlex="0 1 calc(33.3% - 16px)" 
+    fxFlex.lt-md="0 1 calc(50% - 11px)"
+    fxFlex.lt-sm="100%"  
+    *ngFor="let foto of fotos">
+
+        <mat-card class=" card mat-card-live" >
+        
+            <mat-card-title class="mat-card-title-foto">
+                <p>
+                    <span>{{foto.title}}</span>
+                </p>
+            </mat-card-title>
+            <img mat-card-image src={{foto.url}} alt="">
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.mat-card-foto{
+    border: 1px solid #CFD8DC; 
+    border-radius: 4px 3px 6px / 2px 4px; 
+    padding-top: 15px; 
+    padding-left: 0%; 
+    padding-right: 0%; 
+    padding-bottom: 0%;
+    margin: 5px;
+}
+
+
+.mat-card-title-foto{
+    padding-left:10px; 
+    padding-top: 0px; 
+    padding-right: 10px; 
+    margin-bottom: 0px; 
+    min-height: 60px;
+}
+
+.card:hover{
+    box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+  }
